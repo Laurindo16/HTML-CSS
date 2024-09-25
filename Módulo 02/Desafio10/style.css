@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+p{
+    text-indent: 1em;
+    padding: 5px;
+}
+
+header{
+    background-image: linear-gradient(to top, #1A5C38, #3CD782);
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: idroid;
+
+}
+
+h3{
+    font-family: idroid;
+    background-image: linear-gradient(to right, #C5ECD5, #ffffff00);
+}
+
+main{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.466);
+    
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.bugdroid{
+    width: 50%;
+    height: 50%;
+}
+
+.video01{
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 20px;
+}
+
+.quer-aprender-mais{
+    background-color: #C5EBD6;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+h4{
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul{
+    column-count: 2;
+}
+
+.creditos{
+    text-align: center;
+    background-color: #1A5C38;
+    color: #ffffff;
+    width: auto;
+    
+}

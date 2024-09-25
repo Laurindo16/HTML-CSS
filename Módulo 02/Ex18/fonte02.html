@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: starwars ;
+            src: url('fonts/Starjedi.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format():
+            - opentype (otf)
+            - truetype (ttf)
+            - embeded-opentype
+            - truetype-aat
+            - svg
+            */
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'starwars', 'Times New Roman', 'Sans-Serif';
+            font-size: 3em;
+        }
+
+        h2{
+            font-family: 'starwars', 'Times New Roman', 'Sans-Serif';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius numquam ex culpa totam voluptatibus, veritatis harum quos ullam enim qui ea. Aliquid qui quas perspiciatis, sed repudiandae nesciunt sint.</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste qui consectetur. Quidem modi architecto dolore, earum, mollitia hic, accusamus molestiae harum laborum iusto vel sapiente debitis ipsam maxime. Error!
+    <h2>Subtítulo dahora</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit sunt perferendis, qui alias facere, explicabo veniam quibusdam veritatis quam, pariatur inventore similique atque aspernatur dolores deleniti? Laborum odit ratione dolorum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt possimus vero, reprehenderit ullam libero eveniet laudantium temporibus nulla itaque reiciendis. Illo explicabo inventore placeat mollitia deleniti. Molestiae ipsa sapiente dignissimos.</p>
+</body>
+</html>

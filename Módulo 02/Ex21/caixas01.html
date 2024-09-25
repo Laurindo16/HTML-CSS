@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com caixas</title>
+    <style>
+        /* Caixa box-level */
+        h1{
+            background-color: grey;
+            height: 300px;
+            width: 300px;
+
+            /* Podemos simplificar utilizando ("tag": "width", "style", "color" */
+            /* Também é possivel utilizando ("tag": "top", "right", "bottom", "left") */
+
+            padding: 10px;
+            margin: 50px;
+            border: 10px, solid, black;
+
+
+        }
+
+        /* Caixa inline */
+        a{
+            border: 10px, solid, black
+        }
+    </style>
+</head>
+<body>
+    <h1>Títulos são exemplos de caixas box-level</h1>
+    <p>Parágrafos também são exemplos de caixas box-level, mas <a href="#">links</a> são exemplos de caixas inline-level.</a></p>
+</body>
+</html>
