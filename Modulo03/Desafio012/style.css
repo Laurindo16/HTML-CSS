@@ -1,0 +1,43 @@
+@charset "UTF_8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    font-family: 'Passion One';
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+h1{
+    margin: 0px;
+}
+
+p#credit{
+    margin: 0px;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Passion One';
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+p#footer1{
+    margin: 0px;
+}
+
+p#footer2{
+    margin: 0px;
+}
