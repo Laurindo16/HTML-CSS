@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 002</title>
+    <style>
+        caption{
+            padding: 5px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        thead{
+            background-color: grey;
+        }
+
+        th{
+            border: 1px solid black;
+            text-transform: uppercase;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            vertical-align: center;
+        }
+        
+        tfoot{
+            font-weight: bold;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+<!-- 
+    HIERARQUIA DE TABELAS GRANDES
+    CAPTION
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+ -->
+    
+ <h1>Tabelas grandes</h1>
+
+ <table>
+    <caption>Capitais mais populosas do Brasil</caption>
+    <thead>
+        <tr>
+            <th scope="col">Ranking</th>
+            <th scope="col">UF</th>
+            <th scope="col">Capital</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>SP</td>
+            <td>São Paulo</td>
+            <td>11.895.578</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>RJ</td>
+            <td>Rio de Janeiro</td>
+            <td>6.729.894</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DF</td>
+            <td>Brasilia</td>
+            <td>2.982.818</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>CE</td>
+            <td>Fortaleza</td>
+            <td>2.574.412</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>BA</td>
+            <td>Salvador</td>
+            <td>2.568.928</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total</th>
+            <td>-</td>
+            <td>-</td>
+            <th scope="row">Preguiça de somar</th>
+        </tr>
+    </tfoot>
+ </table>
+</body>
+</html>
