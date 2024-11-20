@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de colunas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            color: white;
+        }
+
+        caption{
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 5px;
+        }
+
+        th, td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        .cnome{
+            background-color: rgb(22, 184, 8);
+        }
+
+        .csexo{
+            background-color: rgb(107, 62, 4);
+        }
+
+        .cidade{
+            background-color: rgb(28, 0, 230);
+        }
+
+        .cprofissao{
+            background-color: rgb(255, 0, 200);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Agrupando colunas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Maria Gabriela</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Gabrielle Moraes</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Desenvolvedora</td>
+            </tr>
+            <tr>
+                <td>Guilherme Borges</td>
+                <td>M</td>
+                <td>27</td>
+                <td>Bombeiro</td>
+            </tr>
+            <tr>
+                <td>Davi Freitas</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>Sarah Silva</td>
+                <td>F</td>
+                <td>21</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td>Matheus Laurindo</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Desenvolvedor</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
