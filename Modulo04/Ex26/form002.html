@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionalidades de formularios</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <!-- Sempre utilizar method 'post' quando o formulário trabalhar com dados sensíveis, como senhas. -->
+    <form action="cadastro.js" method="post"> 
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required>
+        </p>
+        <p>
+            <label for="dn">Data de Nascimento:</label>
+            <input type="date" name="danasc" id="dn" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        <!-- Para adicionar "regras" no input, basta colocá-las no final das setas do input(required, minleght, maxlenght, etc.). -->
+    </form>
+</body>
+</html>
