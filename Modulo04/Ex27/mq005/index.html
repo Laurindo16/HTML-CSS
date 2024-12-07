@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media querries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi autem quasi fugiat architecto animi veritatis voluptate nostrum eius veniam assumenda est molestiae quisquam error, ullam impedit. Debitis voluptatum iste cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, reiciendis aliquid harum ea qui voluptas possimus labore ex velit quod ipsum facere! Voluptatibus odio quis eum, quasi expedita dolorum. Corrupti? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, architecto. Exercitationem nobis voluptatum ab, nihil iure quos unde ipsa eius hic, nulla quaerat officiis quam illum iste facilis mollitia dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error et labore aperiam assumenda illum, laudantium accusantium quidem repellendus dolorem ipsa repudiandae veniam sit cumque culpa sapiente vitae accusamus commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse nihil deserunt, quasi molestiae quo iusto blanditiis perferendis ducimus eveniet nisi veritatis sapiente minus dolorum non repudiandae iste amet voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officiis reiciendis, porro ut commodi officia repellat natus quidem itaque illum quibusdam ipsam amet voluptatem enim harum inventore id sint quod? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos ex ratione quisquam accusantium sed dolores numquam fuga ea! Dolorum magnam exercitationem fuga consequuntur delectus ex corporis neque quisquam ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi perferendis ipsam atque dicta distinctio non in ex, neque, animi accusamus esse repellat maxime dignissimos laboriosam aliquam error totam possimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, soluta alias dolorem totam magnam non nam repudiandae cumque dicta earum atque nemo veritatis expedita eaque obcaecati libero sed commodi aut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea dolorem repudiandae aut, assumenda laborum quo earum praesentium itaque minima quae veritatis pariatur exercitationem quisquam illum dicta. Laudantium, quia perferendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat neque reiciendis quam quaerat eligendi accusamus sapiente cumque delectus eveniet fugit repellendus, ex id laboriosam corporis, dolorem repudiandae aut ad accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsa provident odit officiis veniam omnis perspiciatis! Magni est id reprehenderit inventore distinctio illum, omnis autem nobis itaque, dicta quae suscipit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rem natus nisi amet asperiores dignissimos saepe nihil, at modi ratione quas perferendis esse. Molestias, non quo assumenda autem optio modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est exercitationem earum dignissimos placeat. Rem unde laborum deserunt ipsam quasi animi natus corporis, debitis, porro ab inventore. Quaerat ullam eligendi ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sit ipsam sed porro libero natus fuga, voluptate nihil fugiat quia voluptates officiis veniam esse sapiente nostrum illum. Quidem, quis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt aliquid incidunt numquam, atque praesentium quasi fuga enim non dolor deleniti delectus voluptatem iusto aut cum, autem quo! Fugit, rem!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
